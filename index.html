@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <nav id="desktop-nav">
+    <div class="logo"> Ron Paragoso </div>
+        <div>
+            <ul class="nav-links">
+                <li><a href = "#home">Home</a></li>
+                <li><a href = "#portfolio">Portfolio</a></li>
+                <li><a href = "#about">About</a></li>
+                <li><a href = "#contact">Contact</a></li>
+                <li><a href = "#blog">Blog</a></li>
+            </ul>
+       </div>
+    </div>
+</nav>
+<nav id="hamburger-nav"> 
+    <div class="logo"> Ron Paragoso</div>
+    <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="#home" onclick="toggleMenu()"> Home</a></li>
+            <li><a href="#portfolio" onclick="toggleMenu()"> Portfolio</a></li>
+            <li><a href="#about" onclick="toggleMenu()"> About</a></li>
+            <li><a href="#contact" onclick="toggleMenu()"> Contact</a></li>
+            <li><a href="#blog" onclick="toggleMenu()"> Blog</a></li>
+        </div>
+    </div>
+</nav>
+<script src="main.js"></script>
+</body>
+</html>
+<!-- home. works. portfolio. About. Contact .Blog -->
