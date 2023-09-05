@@ -8,12 +8,13 @@
     <title>My Portfolio</title>
 </head>
 <body>
+    <!-- default desktop view navigation -->
     <nav id="desktop-nav">
     <div class="logo"> Ron Paragoso </div>
         <div>
             <ul class="nav-links">
                 <li><a href = "#home">Home</a></li>
-                <li><a href = "#portfolio">Portfolio</a></li>
+                <li><a href = "#experience">Portfolio</a></li>
                 <li><a href = "#about">About</a></li>
                 <li><a href = "#contact">Contact</a></li>
                 <li><a href = "#blog">Blog</a></li>
@@ -21,6 +22,7 @@
        </div>
     </div>
 </nav>
+<!-- hamburger navigation for minimized view-->
 <nav id="hamburger-nav"> 
     <div class="logo"> Ron Paragoso</div>
     <div class="hamburger-menu">
@@ -31,14 +33,264 @@
         </div>
         <div class="menu-links">
             <li><a href="#home" onclick="toggleMenu()"> Home</a></li>
-            <li><a href="#portfolio" onclick="toggleMenu()"> Portfolio</a></li>
+            <li><a href="#experience" onclick="toggleMenu()"> Portfolio</a></li>
             <li><a href="#about" onclick="toggleMenu()"> About</a></li>
             <li><a href="#contact" onclick="toggleMenu()"> Contact</a></li>
             <li><a href="#blog" onclick="toggleMenu()"> Blog</a></li>
         </div>
     </div>
 </nav>
+<!-- home profile -->
+<section id="home-profile">
+    <div class="section_pic-container">
+        <img src="./assets/profile-pic.jpg" atl="my profile pic" class="prof-pic">
+    </div>
+
+    <div class="section_text">
+        <p class="section_text_p1">Hello, 
+            I'm</p>
+        <h1 class="title">John Doe</h1>
+        <p class="section_text_p2">Frontend Developer</p>
+        <!-- buttons -->
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Resume-Ron-Paragoso.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <!-- social media directories -->
+        <div id="socials-container">
+            <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/ron-deniele-paragoso-a96b1724b/'"
+          />
+          <img
+          src="./assets/github.png"
+          alt="My Github profile"
+          class="icon"
+          onclick="location.href='https://github.com/rdeniele'"
+        />
+          </div>
+        </div>
+</section>
+<!-- the about me section -->
+<section id="about">
+    
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      <div class="section__pic-container">
+        <img
+          src="./assets/about-pic.jpg"
+          alt="Profile picture"
+          class="about-pic"
+        />
+      </div>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img
+              src="./assets/experience.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <!-- experiences -->
+            <h3>Experience</h3>
+            <p>Fresh Graduate <br />Frontend Development</p>
+          </div>
+          <div class="details-container">
+            <img
+              src="./assets/education.png"
+              alt="Education icon"
+              class="icon"
+            />
+            <h3>Education</h3>
+            <p>B.S. in Computer Science<br />University of St. La Salle</p>
+            
+          </div>
+        </div>
+        <div class="text-container">
+          <p>
+            I am a student of University of St. La Salle taking BS in Computer Science student. 
+            Moreover, I am a Technology officer of Google Developer Students Club at University of St. La Salle. 
+            I believe that continuous progress is better than perfection as we are human being and we never stop to learn and experience new things. 
+            Despite my busy schedule as a student I find time to workout, explore new skills, and more importantly take time to rest. 
+            My hobbies are listening to music, Art (digital and traditional), playing video games, and watching movies,short films, animations, or series.
+          </p>
+        </div>
+      </div>
+    </div>
+    <img
+      src="./assets/arrow.png"
+      alt="Arrow icon"
+      class="icon arrow"
+      onclick="location.href='./#experience'"
+    />
+  </section>
+  <!-- Experiences -->
+  <section id="experience">
+   
+    <h1 class="title">Experience</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="experience-sub-title">Frontend Development</h2>
+          <div class="article-container">
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>HTML</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>CSS</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>SASS</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>JavaScript</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>TypeScript</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Material UI</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="details-container">
+          <h2 class="experience-sub-title">Frontend Development</h2>
+          <div class="article-container">
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>PostgreSQL</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Node JS</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Express JS</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Git</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img
+      src="./assets/arrow.png"
+      alt="Arrow icon"
+      class="icon arrow"
+      onclick="location.href='./#projects'"
+    />
+  </section>
+  <!-- contacts -->
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img
+          src="./assets/email.png"
+          alt="Email icon"
+          class="icon contact-icon email-icon"
+        />
+        <p><a href="mailto:examplemail@gmail.com">Example@gmail.com</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img
+          src="./assets/linkedin.png"
+          alt="LinkedIn icon"
+          class="icon contact-icon"
+        />
+        <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+      </div>
+    </div>
+  </section>
 <script src="main.js"></script>
 </body>
 </html>
-<!-- home. works. portfolio. About. Contact .Blog -->
