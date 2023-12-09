@@ -238,6 +238,10 @@ a:hover{
   gap: 2rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
+  
+}
+.section__text__p1{
+  text-align: center;
 }
 
 
@@ -249,11 +253,13 @@ a:hover{
 .about-containers,
 .about-details-container {
   display: flex;
+  
 }
 
 .about-pic {
   border-radius: 2rem;
-  
+  height: 30px;
+  width: 30px;
 }
 
 .arrow {
@@ -270,6 +276,7 @@ a:hover{
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
+  border-width: medium;
 }
 
 .section-container {
@@ -280,28 +287,12 @@ a:hover{
 .section__pic-container {
   height: 400px;
   width: 400px;
-  margin: 0 auto;
+   margin: 0 auto; 
 }
 
 /* about section */
 #about {
     position: relative;
-  }
-  
-  .about-containers {
-    gap: 2rem;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
-  }
-  
-  .about-details-container {
-    justify-content: center;
-    flex-direction: column;
-  }
-  
-  .about-containers,
-  .about-details-container {
-    display: flex;
   }
   
   .about-pic {
@@ -318,22 +309,6 @@ a:hover{
     right: -5rem;
     bottom: 2.5rem;
   }
-  
-  .details-container {
-    padding: 1.5rem;
-    flex: 1;
-    background: white;
-    border-radius: 2rem;
-    border: rgb(53, 53, 53) 0.1rem solid;
-    border-color: rgb(163, 163, 163);
-    text-align: center;
-  }
-  
-  .section-container {
-    gap: 4rem;
-    height: 80%;
-  }
-  
   
   /* EXPERIENCE SECTION */
 
